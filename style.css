@@ -1,0 +1,160 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.card-1, .card-2 {
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(213, 29%, 13%));
+    margin: 1rem;
+    box-sizing: border-box;
+    max-width: 350px;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    position: absolute;
+}
+
+.card-1 img {
+    background-color: hsl(216, 12%, 24%);
+    border-radius: 50%;
+    padding: .7rem;
+}
+
+.card-1 h1 {
+    padding: 1rem 0;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.card-1 p {
+    color: hsl(216, 12%, 54%);
+    line-height: 1.4;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+}
+
+.btns button {
+    border: none;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 24%);
+    color: hsl(216, 12%, 54%);
+    padding: 1rem;
+}
+
+.btns button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.btns button:focus {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit {
+    width: 100%;
+    height: 2.8rem;
+    border-radius: 1.4rem;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.card-2 {
+    align-items: center;
+    text-align: center;
+    visibility: hidden;
+}
+
+.answer {
+    background-color: hsl(216, 12%, 24%);
+    color: hsl(25, 97%, 53%);
+    padding: 0.5rem 0.9rem 0.4rem;
+    border-radius: 15px;
+    margin: 1.5rem;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.thank-you {
+    color: hsl(216, 12%, 54%);
+    line-height: 1.4;
+    margin-top: 1rem;
+}
